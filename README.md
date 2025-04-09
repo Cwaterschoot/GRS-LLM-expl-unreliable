@@ -12,7 +12,7 @@ This repository includes the following:
 
 * **Recsys-distance-groups.ipynb**:
  
-  This notebook contains the calculation to obtain Euclidean distances within groups. Used in the study to label groups as similar or dissimilar. This notebook also contains the Figure plotted in the manuscript.
+  This notebook contains the calculation to obtain Euclidean distances within groups. Used in the study to label groups as similar or dissimilar. This notebook also contains the Figure plotted in the manuscript and the histograms of normalized distances.
 
 * **Recsys-Explanation-categorization.ipynb**:
  
