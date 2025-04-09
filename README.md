@@ -20,11 +20,12 @@ This repository includes the following:
 
 ## Datasets:
  
-  *v3-groups_[4]members_[25]items_totalgroups2000 : groups with 25 items
+  * v3-groups_[4]members_[25]items_totalgroups2000 : groups with 25 items
   
-  *v3-groups_[4]members_[50]items_totalgroups2000 : groups with 50 items
+  * v3-groups_[4]members_[50]items_totalgroups2000 : groups with 50 items
   
-  *v3-groups_[4]members_[75]items_totalgroups2000 : groups with 75 items
+  * v3-groups_[4]members_[75]items_totalgroups2000 : groups with 75 items
 
   **In the study, we only made use of the first 500 groups of each dataset due to time limitations**
+
  
