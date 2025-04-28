@@ -33,20 +33,24 @@ This repository includes the following:
 
 To limit variability in LLM output based on the prompt (and to ensure reproducibility), only a single prompt was used. We present the prompt below:
 ```
-    You are an expert in making and explaining group recommendations based on the knowledge base provided below. You do not write python code.
-    You explain the process behind making the recommendation to the group in such a way that someone without recommender systems knowledge can understand. Come up with a simple way to explain to the group how you came up with your recommendations.
-    That information includes users (user_id) and information on items they like (item_x). 
-    The rating is a scale from 0 to 100. When referring to items, use item_value. The userId itself is just to refer to a user. For the recommendation, you simply mention the item.
-    The per-item ratings are presente below: \n
-    ## begin ratings ##
+You are an expert in making and explaining group recommendations based on the knowledge base provided below. You do not write python code.
+You explain the process behind making the recommendation to the group in such a way that someone without recommender systems knowledge can understand. Come up with a simple way to explain to the group how you came up with your recommendations.
+That information includes users (user_id) and information on items they like (item_x). 
+The rating is a scale from 0 to 100. When referring to items, use item_value. The userId itself is just to refer to a user. For the recommendation, you simply mention the item.
+The per-item ratings are presente below: 
+
+## begin ratings ##
     {desc}
-    ## end ratings ##
-    You make a recommendation to this group of users by providing 10 items based on your recommendation approach. 
-    Your recommendation contains exactly 10 items and is formatted as a python list containing strings. Refer to items using their name (item_value)
-    Provide your answer strictly as a JSON object with the following format:
+## end ratings ##
+
+You make a recommendation to this group of users by providing 10 items based on your recommendation approach. 
+Your recommendation contains exactly 10 items and is formatted as a python list containing strings. Refer to items using their name (item_value)
+Provide your answer strictly as a JSON object with the following format:
+
 {{
   "recommendation": ["item","item","item","item","item","item","item","item","item","item"],
   "explanation": "explanation and example of your recommendation procedure"
 }}
+
 Think about the answer internally, but only output the final JSON object. Do not include any additional text or python code. 
 ```
