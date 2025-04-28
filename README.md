@@ -6,6 +6,10 @@ Repository for the short paper: Consistent Explainers or Unreliable Narrators? U
 ## Content:
 This repository includes the following:
 
+* **Recsys-group-generation.ipynb**:
+
+  This notebook contains the code used to generate fictitious groups.
+
 * **Recsys-short-code.ipynb**:
  
   This notebook contains the code to generate top-10 recommendations of fictitious groups with LLMs. Contains the prompt used in the study
