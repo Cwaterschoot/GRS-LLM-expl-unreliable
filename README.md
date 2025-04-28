@@ -24,7 +24,7 @@ This repository includes the following:
 
 * **Result-files**:
 
-  Csv files containing all LLM-generated recommendations (RQ1) (per item set size), LLM-generated explanations (RQ3) (per item set size) and deltas between uniform and divergent groups (RQ2)
+  Csv files containing all LLM-generated recommendations (RQ1), deltas between uniform and divergent groups (RQ2) and LLM-generated explanations (RQ3)
 
 ## Datasets:
  
