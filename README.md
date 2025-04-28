@@ -31,7 +31,8 @@ This repository includes the following:
  
 ## Prompt:
 
-To limit variability in LLM output based on the prompt (and to ensure reproducibility), only a single prompt was used. We present the prompt below:
+To limit variability in LLM output based on the prompt (and to ensure reproducibility), only a single prompt was used. We present the prompt below. {desc} is inserted for each group, containing the group ratings.
+
 ```
 You are an expert in making and explaining group recommendations based on the knowledge base provided below. You do not write python code.
 You explain the process behind making the recommendation to the group in such a way that someone without recommender systems knowledge can understand. Come up with a simple way to explain to the group how you came up with your recommendations.
