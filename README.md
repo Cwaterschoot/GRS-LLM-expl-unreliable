@@ -1,6 +1,6 @@
-# Explainable Output or Unreliable Narrators? Contextualizing LLM-generated Group Recommendations
+# Consistent Explainers or Unreliable Narrators? Understanding LLM-generated Group Recommendations
 
-Repository for the paper: Explainable Output or Unreliable Narrators? Contextualizing LLM-generated Group Recommendations
+Repository for the short paper: Consistent Explainers or Unreliable Narrators? Understanding LLM-generated Group Recommendations
 
 
 ## Content:
