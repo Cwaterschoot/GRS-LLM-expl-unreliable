@@ -63,3 +63,6 @@ Provide your answer strictly as a JSON object with the following format:
 
 Think about the answer internally, but only output the final JSON object. Do not include any additional text or python code. 
 ```
+## External Appendix: explanation categories per item set size
+
+![Full Table](explanation_categories_full.png)
